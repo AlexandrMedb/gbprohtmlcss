@@ -1,0 +1,28 @@
+.navBar {
+  background: #222222;
+  padding: 19px 0;
+  /* color: #e8e8e8; */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.navBar_left {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 111px;
+}
+
+.navBar_right {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  width: 168px;
+  padding: 0;
+}
