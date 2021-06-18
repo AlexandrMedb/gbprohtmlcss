@@ -1,11 +1,7 @@
 .banner {
   background: #f1e4e6;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   /* justify-content: space-between; */
 }
 
@@ -20,6 +16,7 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
+
   color: #222222;
 }
 
@@ -30,6 +27,13 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
+
   color: #222222;
 }
-/*# sourceMappingURL=mainPage.css.map */
+
+// .banner_usual {
+// }
+
+.banner_titile__pink {
+  // color: #f16d7f;
+}
