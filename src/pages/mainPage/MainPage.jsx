@@ -3,7 +3,7 @@ import React from "react";
 // import {NavLink, useHistory} from 'react-router-dom'
 import { Navbar } from "../../components/navBar/navBar";
 import { Footer } from "../../components/footer/footer";
-import "./mainPage.css";
+import "./mainPage.scss";
 import men from "./man.png";
 
 export const MainPage = () => {
