@@ -6,7 +6,7 @@ import "./navBar.css";
 export const Navbar = () => {
   return (
     <div className="navBar">
-      <div className="container">
+      <div className="container navBar_container">
         <div className="navBar_left">
           <div>
             <img src="img/logo.svg" alt="logo" />

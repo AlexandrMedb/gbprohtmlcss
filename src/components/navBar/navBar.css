@@ -3,12 +3,11 @@
   padding: 19px 0;
   /* color: #e8e8e8; */
 }
-.container {
+
+.navBar_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1130px;
-  margin: 0 auto;
 }
 
 .navBar_left {

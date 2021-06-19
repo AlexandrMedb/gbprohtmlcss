@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
 .banner {
   background: #f1e4e6;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  margin-bottom: 65px;
 }
 
 .rectangle {
@@ -11,29 +19,97 @@
   background: #f16d7f;
 }
 
-.banner_titiled {
-  display: inline-block;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-
-  color: #222222;
+.banner_right {
+  display: flex;
+  vertical-align: top;
+  align-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
-
-.banner_titile__bold {
+.banner_titile {
+  margin: 0;
+  padding: 0;
   text-align: start;
-  color: #f16d7f;
-  display: inline-block;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-
   color: #222222;
+  vertical-align: top;
+
+  .banner_titile__bold {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 
-// .banner_usual {
-// }
+.offer {
+  width: 1142px;
+  margin: 0 auto;
+  margin-bottom: 96px;
 
-.banner_titile__pink {
-  // color: #f16d7f;
+  .category_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .category_big {
+    height: 180px;
+    padding-top: 65px;
+    box-sizing: border-box;
+    background-blend-mode: multiply;
+    background: rgba(33, 22, 22, 0.7);
+    background-image: url(./img/offerAccesories.png);
+  }
+
+  .category_title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .category_header {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f16d7f;
+  }
+}
+
+.feturedItems {
+  margin-bottom: 49px;
+  .feturedItems_title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+  }
+  .feturedItems_text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9f9f9f;
+  }
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.products_link {
+  display: inline-block;
+  margin-bottom: 96px;
+  padding: 15px 39px;
+  border: 1px solid #f26376;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+}
+
+.feature {
+  background: #222224;
+  padding: 103px 0;
+  .feature_container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
