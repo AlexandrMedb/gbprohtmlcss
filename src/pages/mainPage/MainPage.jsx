@@ -24,17 +24,20 @@ export const MainPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="banner">
-        <div>
-          <img className="banner_img" src={men} alt="" />
-        </div>
-        <div className="banner_right">
-          <div className="rectangle"></div>
-          <div className="banner_titile">
-            <div className="banner_titile__bold">THE BRAND</div>
-            {/* <br />
-            <span className="banner_usual">OF LUXERIOUS</span>{" "}
-            <span className="banner_titile__pink">FASHION</span> */}
+      <div className="banner_container">
+        <div className="banner ">
+          <div className="banner_img">
+            <img className="banner_img" src={men} alt="" />
+          </div>
+          <div className="banner_right">
+            <div className="rectangle"></div>
+            <div className="banner_titile">
+              <div className="banner_titile__bold">THE BRAND</div>
+              <div className="banner_usual">
+                OF LUXERIOUS{" "}
+                <span className="banner_titile__pink">FASHION</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

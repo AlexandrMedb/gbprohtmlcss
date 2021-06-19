@@ -12,11 +12,8 @@ export const Navbar = () => {
             <img src="img/logo.svg" alt="logo" />
           </div>
 
-          <div>
-            <button type="submit">
-              <img src="img/loop.png" alt="loop" />
-            </button>
-          </div>
+          <img src="img/loop.svg" alt="loop" />
+
           {/* <input type="text" /> */}
         </div>
 

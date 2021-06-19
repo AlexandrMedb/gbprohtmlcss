@@ -6,11 +6,16 @@
   font-family: "Lato", sans-serif;
 }
 
-.banner {
+.banner_container {
   background: #f1e4e6;
+}
+.banner {
   display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
   align-items: center;
   margin-bottom: 65px;
+  position: relative;
 }
 
 .rectangle {
@@ -27,16 +32,21 @@
   padding: 0;
 }
 .banner_titile {
-  margin: 0;
-  padding: 0;
   text-align: start;
-  color: #222222;
-  vertical-align: top;
-
   .banner_titile__bold {
     font-weight: 900;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 58px;
+
+    color: #222222;
+  }
+  .banner_usual {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .banner_titile__pink {
+    color: #f16d7f;
   }
 }
 
