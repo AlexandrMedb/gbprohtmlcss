@@ -6,7 +6,7 @@ export class ProductCard extends React.Component {
   render() {
     return (
       <div className="productCard">
-        <img src={this.props.img} alt="image" />
+        <img src={this.props.img} alt="imageS" />
         <div className="product_data">
           <div className="productCard_header">{this.props.header}</div>
           <div className="productCard_text">{this.props.text}</div>

@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 //перенести в router
-import {MainPage} from './pages/mainPage/MainPage'
+import { MainPage } from "./pages/mainPage/MainPage";
 
 function App() {
   return (
     <div className="App">
-
-      <MainPage/>
+      <MainPage />
     </div>
   );
 }
