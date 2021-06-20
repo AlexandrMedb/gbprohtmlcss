@@ -1,0 +1,60 @@
+.registration_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.registrationform {
+  .registrationForm_title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+
+    color: #222222;
+  }
+
+  .registrationForm_input {
+    display: block;
+    width: 360px;
+    border: 1px solid #a4a4a4;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+    margin-bottom: 20px;
+  }
+  .registrationForm_input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b1b1b1;
+  }
+}
+.registrationform_radio {
+  margin: 31px 0;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+}
+
+.lolatyPerks {
+  .lolatyPerks-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    max-width: 652px;
+  }
+  .lolatyPerks_title {
+    padding-bottom: 21px;
+  }
+  li {
+    list-style-image: url(./arrow.svg);
+    padding-bottom: 16px;
+    padding-left: 20px;
+  }
+}

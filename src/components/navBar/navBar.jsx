@@ -9,7 +9,9 @@ export const Navbar = () => {
       <div className="container navBar_container">
         <div className="navBar_left">
           <div>
-            <img src="img/logo.svg" alt="logo" />
+            <a href="/">
+              <img src="img/logo.svg" alt="logo" />
+            </a>
           </div>
 
           <img src="img/loop.svg" alt="loop" />
@@ -21,12 +23,12 @@ export const Navbar = () => {
           {/* <li><NavLink to="/create">Создать</NavLink></li>
           <li><NavLink to="/links">Ссылки</NavLink></li> */}
           <li>
-            <a href="/">
+            <a href="/catalog">
               <img src="img/menu.svg" alt="menu" />
             </a>
           </li>
           <li>
-            <a href="/contacts">
+            <a href="/registration">
               <img src="img/profile.svg" alt="profile" />
             </a>
           </li>

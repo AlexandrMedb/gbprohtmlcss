@@ -1,34 +1,22 @@
-import React from 'react'
-import {Switch, Route, Redirect} from 'react-router-dom'
-import {LinksPage} from './pages/LinksPage'
-import {CreatePage} from './pages/CreatePage'
-import {DetailPage} from './pages/DetailPage'
-import {AuthPage} from './pages/AuthPage'
+import React from "react";
+import { Switch, Route, Redirect } from "react-router-dom";
+import { MainPage } from "./pages/mainPage/MainPage";
+import { CatalogPage } from "./pages/catalogPage/catalogPage";
+import { RegistrationPage } from "./pages/registrationPage/registrationPage";
 
-export const useRoutes = isAuthenticated => {
-  if (isAuthenticated) {
-    return (
-      <Switch>
-        <Route path="/links" exact>
-          <LinksPage />
-        </Route>
-        <Route path="/create" exact>
-          <CreatePage />
-        </Route>
-        <Route path="/detail/:id">
-          <DetailPage />
-        </Route>
-        <Redirect to="/create" />
-      </Switch>
-    )
-  }
-
+export const useRoutes = () => {
   return (
     <Switch>
       <Route path="/" exact>
-        <AuthPage />
+        <MainPage />
+      </Route>
+      <Route path="/catalog" exact>
+        <CatalogPage />
+      </Route>
+      <Route path="/registration" exact>
+        <RegistrationPage />
       </Route>
       <Redirect to="/" />
     </Switch>
-  )
-}
+  );
+};

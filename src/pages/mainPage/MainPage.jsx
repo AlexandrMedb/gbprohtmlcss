@@ -2,11 +2,10 @@ import React from "react";
 // влючить в зависимости
 // import {NavLink, useHistory} from 'react-router-dom'
 import "./mainPage.scss";
-import { Navbar } from "../../components/navBar/navBar";
-import { Footer } from "../../components/footer/footer";
+
 import { CategoryLyttle } from "./componets/CategoryLittle";
 import { ProductCard } from "../../components/productCard/ProductCard";
-import { Feature } from "./componets/Feature";
+import { Features } from "../../components/features/Features";
 
 //вынести картинки в отдельный файл
 import men from "./man.png";
@@ -18,12 +17,11 @@ import KidsmanImg from "./img/offerKids.png";
 import productCard from "./img/productCard.png";
 
 //картинки для фич
-import car from "./img/car.svg";
+// import car from "./img/car.svg";
 
 export const MainPage = () => {
   return (
     <div>
-      <Navbar />
       <div className="banner_container">
         <div className="banner ">
           <div className="banner_img">
@@ -103,21 +101,12 @@ export const MainPage = () => {
             price="$52.00"
           />
         </div>
-
-        <a className="products_link" href="">
-          Browse All Product
-        </a>
-      </div>
-
-      <div className="feature">
-        <div className="feature_container container">
-          <Feature img={car} />
-          <Feature img={car} />
-          <Feature img={car} />
+        <div className="products_link">
+          <a href="">Browse All Product</a>
         </div>
       </div>
 
-      <Footer />
+      <Features />
     </div>
   );
 };

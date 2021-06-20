@@ -67,6 +67,9 @@
     background-blend-mode: multiply;
     background: rgba(33, 22, 22, 0.7);
     background-image: url(./img/offerAccesories.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .category_title {
@@ -83,17 +86,20 @@
 }
 
 .feturedItems {
-  margin-bottom: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .feturedItems_title {
     font-size: 30px;
     line-height: 36px;
     color: #222222;
+    margin-bottom: 6px;
   }
   .feturedItems_text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #9f9f9f;
+    margin-bottom: 49px;
   }
 }
 
@@ -105,21 +111,21 @@
 }
 
 .products_link {
-  display: inline-block;
-  margin-bottom: 96px;
-  padding: 15px 39px;
-  border: 1px solid #f26376;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 19px;
-  color: #f26376;
-}
-
-.feature {
-  background: #222224;
-  padding: 103px 0;
-  .feature_container {
-    display: flex;
-    justify-content: space-between;
+  text-align: center;
+  a {
+    padding: 15px 39px;
+    border: 1px solid #f26376;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f26376;
   }
+  margin-bottom: 109px;
+}
+// удалить после добавления пагинации
+.PP {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 96px;
 }
