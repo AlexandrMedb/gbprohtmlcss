@@ -7,9 +7,6 @@ export class CartPage extends React.Component {
     return (
       <div>
         <Breadcrumb h1="SHOPPING CART" />
-        <main>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, quis?
-        </main>
       </div>
     );
   }
