@@ -87,11 +87,8 @@
 }
 
 .socialMedia {
-  width: 148px;
   display: flex;
-  justify-content: space-between;
   list-style: none;
-  align-items: center;
 
   .socialMedia_logo {
     background-color: #fff;
@@ -100,9 +97,17 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: all ease 0.3s;
   }
+  .socialMedia_logo:not(:last-child) {
+    margin-right: 7px;
+  }
+
   .socialMedia_logo:hover {
     background-color: #f16d7f;
     color: #fff;
+    path {
+      fill: #ffffff;
+    }
   }
 }

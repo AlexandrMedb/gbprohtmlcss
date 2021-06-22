@@ -1,5 +1,9 @@
 import React from "react";
 import "./footer.scss";
+import { ReactComponent as FacebookIcon } from "./img/faceBookLogo.svg";
+import { ReactComponent as InstagramIcon } from "./img/instagramLogo.svg";
+import { ReactComponent as PinrestIcon } from "./img/pinrestLogo.svg";
+import { ReactComponent as TwitterIcon } from "./img/twitterLogo.svg";
 
 export const Footer = () => {
   return (
@@ -35,22 +39,22 @@ export const Footer = () => {
           <ul className="socialMedia">
             <li className="socialMedia_logo">
               <a href="">
-                <img src="img/faceBookLogo.svg" alt="pinrest" />
+                <FacebookIcon />
               </a>
             </li>
             <li className="socialMedia_logo">
               <a href="">
-                <img src="img/instagramLogo.svg" alt="pinrest" />
+                <InstagramIcon />
               </a>
             </li>
             <li className="socialMedia_logo">
               <a href="">
-                <img src="img/pinrestLogo.svg" alt="pinrest" />
+                <PinrestIcon />
               </a>
             </li>
             <li className="socialMedia_logo">
               <a href="">
-                <img src="img/twitterLogo.svg" alt="pinrest" />
+                <TwitterIcon />
               </a>
             </li>
           </ul>
