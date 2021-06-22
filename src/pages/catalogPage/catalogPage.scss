@@ -1,23 +1,6 @@
-.Breadcrumb {
-  background: #f8f3f4;
-  .Breadcrumb_container {
-    padding: 65px 0px;
-    display: flex;
-    justify-content: space-between;
-    .Breadcrumb_left {
-      font-size: 24px;
-      line-height: 29px;
-      color: #f16d7f;
-    }
-    .Breadcrumb_right {
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 17px;
-      color: #636363;
-
-      span {
-        color: #f16d7f;
-      }
-    }
-  }
+.PP {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 96px;
 }

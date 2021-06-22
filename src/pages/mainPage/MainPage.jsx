@@ -8,7 +8,6 @@ import { ProductCard } from "../../components/productCard/ProductCard";
 import { Features } from "../../components/features/Features";
 
 //вынести картинки в отдельный файл
-import men from "./man.png";
 import womanImg from "./img/offerWoman.png";
 import manImg from "./img/offerMan.png";
 import KidsmanImg from "./img/offerKids.png";
@@ -22,23 +21,17 @@ import productCard from "./img/productCard.png";
 export const MainPage = () => {
   return (
     <div>
-      <div className="banner_container">
-        <div className="banner ">
-          <div className="banner_img">
-            <img className="banner_img" src={men} alt="" />
-          </div>
-          <div className="banner_right">
-            <div className="rectangle"></div>
-            <div className="banner_titile">
-              <div className="banner_titile__bold">THE BRAND</div>
-              <div className="banner_usual">
-                OF LUXERIOUS{" "}
-                <span className="banner_titile__pink">FASHION</span>
-              </div>
-            </div>
+      <div className="banner_background">
+        <div className="container banner_container">
+          <div className="banner">
+            <h1 className="banner_titile__bold">THE BRAND</h1>
+            <p>
+              <span lassName="banner_titile">OF LUXERIOUS</span>{" "}
+              <span className="banner_titile__pink">FASHION</span>
+            </p>
           </div>
         </div>
-      </div>
+      </div>{" "}
       <div className="offer container">
         <div className="category_top">
           <CategoryLyttle title="30% OFF" header="FOR WOMEN" img={womanImg} />
@@ -54,7 +47,6 @@ export const MainPage = () => {
           <div className="category_header">ACCESORIES</div>
         </div>
       </div>
-
       <div className="container">
         <div className="feturedItems ">
           <div className="feturedItems_title">Fetured Items</div>
@@ -105,7 +97,6 @@ export const MainPage = () => {
           <a href="">Browse All Product</a>
         </div>
       </div>
-
       <Features />
     </div>
   );

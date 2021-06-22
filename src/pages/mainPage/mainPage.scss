@@ -1,21 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
 
-.banner_container {
-  background: #f1e4e6;
-}
-.banner {
-  display: flex;
-  max-width: 1600px;
-  margin: 0 auto;
-  align-items: center;
-  margin-bottom: 65px;
-  position: relative;
-}
+// .banner_container {
+//   background: #f1e4e6;
+// }
+// .banner {
+//   display: flex;
+//   max-width: 1600px;
+//   margin: 0 auto;
+//   align-items: center;
+//   margin-bottom: 65px;
+//   position: relative;
+// }
 
-.rectangle {
-  width: 12px;
-  height: 92px;
-  background: #f16d7f;
+.banner_background {
+  background: #f1e4e6;
+  margin-bottom: 65px;
+  .banner_container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 289px 106px 381px 0px;
+    background: url(./man.png) no-repeat;
+    background-position: left -200px bottom;
+
+    .banner {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      color: #222222;
+      border-left: 12px solid #f16d7f;
+      padding-left: 16px;
+      h1 {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+      }
+      p {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        .banner_titile__pink {
+          color: #f16d7f;
+        }
+      }
+    }
+  }
 }
 
 .banner_right {
@@ -27,20 +55,11 @@
 }
 .banner_titile {
   text-align: start;
-  .banner_titile__bold {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
 
-    color: #222222;
-  }
-  .banner_usual {
+  .banner_titile {
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
-  }
-  .banner_titile__pink {
-    color: #f16d7f;
   }
 }
 
@@ -115,9 +134,3 @@
   margin-bottom: 109px;
 }
 // удалить после добавления пагинации
-.PP {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 96px;
-}

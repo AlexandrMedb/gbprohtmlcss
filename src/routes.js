@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { MainPage } from "./pages/mainPage/MainPage";
 import { CatalogPage } from "./pages/catalogPage/catalogPage";
 import { RegistrationPage } from "./pages/registrationPage/registrationPage";
+import { CartPage } from "./pages/cart/cartPage";
 
 export const useRoutes = () => {
   return (
@@ -15,6 +16,9 @@ export const useRoutes = () => {
       </Route>
       <Route path="/registration" exact>
         <RegistrationPage />
+      </Route>
+      <Route path="/cart" exact>
+        <CartPage />
       </Route>
       <Redirect to="/" />
     </Switch>

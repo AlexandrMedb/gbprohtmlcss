@@ -1,21 +1,20 @@
 import React from "react";
 import "./catalogPage.scss";
+import { ReactComponent as Logo } from "./cart.svg";
 
 import { Features } from "../../components/features/Features";
 import { ProductCard } from "../../components/productCard/ProductCard";
+import { Breadcrumb } from "../../components/banner_pink/Breadcrumb";
 import productCard from "./productCard.png";
 import plaginationPlug from "./PP.png";
 export const CatalogPage = () => {
   return (
     <div>
-      <div className="Breadcrumb">
-        <div className="Breadcrumb_container container">
-          <div className="Breadcrumb_left">NEW ARRIVALS</div>
-          <div className="Breadcrumb_right">
-            HOME / MEN / <span>NEW ARRIVALS</span>
-          </div>
-        </div>
+      <Breadcrumb h1="NEW ARRIVALS" />
+      <div className="filter">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, explicabo.
       </div>
+
       <div className="products container ">
         <ProductCard
           img={productCard}
@@ -74,8 +73,9 @@ export const CatalogPage = () => {
         />
       </div>
       <div className="PP container">
-        <img src={plaginationPlug} alt="dad" />
+        <img src={plaginationPlug} alt="pkug" />
       </div>
+      <Logo className="svgimg" />
 
       <Features />
     </div>

@@ -13,7 +13,6 @@ export const Footer = () => {
           <div className="footer_top__left">
             <img src="img/footerGirl.png" alt="Girl" />
             <p className="footer_top__text">
-              {" "}
               “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
               pulvinar purus condimentum“
             </p>

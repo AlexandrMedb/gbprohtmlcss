@@ -1,11 +1,11 @@
 import React from "react";
 import "./registrationPage.scss";
-import { BannerPink } from "../../components/banner_pink/banner_pink";
+import { Breadcrumb } from "../../components/banner_pink/Breadcrumb";
 
 export const RegistrationPage = () => {
   return (
     <div>
-      <BannerPink h1="REGISTRATION" />
+      <Breadcrumb h1="REGISTRATION" />
       <div className="registration_container container">
         <form action="">
           <div className="registrationform">
