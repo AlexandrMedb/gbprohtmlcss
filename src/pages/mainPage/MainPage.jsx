@@ -26,7 +26,7 @@ export const MainPage = () => {
           <div className="banner">
             <h1 className="banner_titile__bold">THE BRAND</h1>
             <p>
-              <span lassName="banner_titile">OF LUXERIOUS</span>{" "}
+              <span className="banner_titile">OF LUXERIOUS</span>{" "}
               <span className="banner_titile__pink">FASHION</span>
             </p>
           </div>

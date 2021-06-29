@@ -8,7 +8,7 @@ import { ReactComponent as TwitterIcon } from "./img/twitterLogo.svg";
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer_top ">
+      <section className="footer_top ">
         <div className="footerContainer">
           <div className="footer_top__left">
             <img src="img/footerGirl.png" alt="Girl" />
@@ -30,14 +30,14 @@ export const Footer = () => {
             </form>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="footer_botom ">
+      <section className="footer_botom ">
         <div className="container footer_botomContainer">
           <div className="rights">© 2021 Brand All Rights Reserved.</div>
           <ul className="socialMedia">
             <li className="socialMedia_logo">
-              <a href="">
+              <a href="/">
                 <FacebookIcon />
               </a>
             </li>
@@ -58,7 +58,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </footer>
   );
 };

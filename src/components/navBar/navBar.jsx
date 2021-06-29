@@ -8,13 +8,17 @@ export const Navbar = () => {
     <div className="navBar">
       <div className="container navBar_container">
         <div className="navBar_left">
-          <div>
+          <diva className="navButton">
             <a href="/">
               <img src="img/logo.svg" alt="logo" />
             </a>
-          </div>
+          </diva>
 
-          <img src="img/loop.svg" alt="loop" />
+          <div className="navButton">
+            <a href="/catalog">
+              <img src="img/loop.svg" alt="loop" />
+            </a>
+          </div>
 
           {/* <input type="text" /> */}
         </div>

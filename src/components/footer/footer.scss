@@ -16,6 +16,12 @@
   padding-bottom: 126px;
 }
 
+.footer_top__left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .footer_top__text {
   width: 360px;
   font-size: 20px;
