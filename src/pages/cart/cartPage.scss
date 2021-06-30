@@ -1,4 +1,4 @@
-.cart-wrap {
+.cart_wrap {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -8,7 +8,7 @@
     border: none;
   }
 
-  .cart-left {
+  .cart_left {
     width: 652px;
     .cardCart {
       display: flex;
@@ -68,12 +68,11 @@
   }
 
   .cartRight {
-    width: 360px;
     padding-top: 17px;
 
-    // .cartRight_wraper {
-    //   width: 360px;
-    // }
+    .cartRight_wraper {
+      width: 360px;
+    }
 
     h2 {
       font-weight: 300;
@@ -84,6 +83,7 @@
     }
 
     input {
+      box-sizing: border-box;
       display: block;
       width: 100%;
       margin-bottom: 20px;
@@ -132,6 +132,105 @@
         line-height: 19px;
         background: #f16d7f;
         color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cart_wrap {
+    padding: 59px 0 128px 0;
+    justify-content: center;
+
+    .cart_left {
+      width: 734px;
+    }
+
+    .cartRight {
+      width: 100%;
+      padding: 0 16px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 64px;
+
+      .carCheckout {
+        margin-top: 37px;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .cart_wrap {
+    padding: 59px 0 128px 0;
+    justify-content: center;
+
+    .cart_left {
+      width: 358px;
+      .cardCart {
+        display: flex;
+        box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.153);
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 32px;
+
+        img {
+          width: 143px;
+        }
+        h2 {
+          width: 140px;
+          margin-bottom: 25px;
+          font-size: 16px;
+          line-height: 19px;
+        }
+        p {
+          margin-bottom: 4px;
+        }
+
+        button {
+          padding-top: 2px;
+        }
+
+        .cardCart_data {
+          width: 100%;
+          padding: 13px 12px 37px 17px;
+          img {
+            width: 9px;
+          }
+
+          .cardCart_price {
+            color: #ef5b70;
+          }
+
+          .cardCart_counter {
+            border: 1px solid #eaeaea;
+            padding: 0 16px;
+            margin-left: 24px;
+          }
+        }
+      }
+
+      .cartCad_buttonwraper {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          margin-top: 0;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 9px 17px;
+          border: 1px solid #a4a4a4;
+        }
+      }
+    }
+
+    .cartRight {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 48px;
+
+      .carCheckout {
+        margin-top: 48px;
       }
     }
   }

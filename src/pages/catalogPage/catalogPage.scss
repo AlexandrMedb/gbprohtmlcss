@@ -120,3 +120,37 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .productCard:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .filter_wrap {
+    padding: 14px 8px 40px 0;
+
+    .filter_left {
+      margin-right: 0;
+      width: 70px;
+      .filter_menu_text {
+        display: none;
+      }
+
+      .filter_menu {
+        svg {
+          width: 37.5px;
+          height: 25px;
+        }
+      }
+    }
+
+    .filter_right {
+      display: flex;
+      details:not(:last-child) {
+        margin-right: 23px;
+      }
+    }
+  }
+}

@@ -18,7 +18,9 @@ export class ProductCard extends React.Component {
         </div>
 
         <div className="product_data">
-          <div className="productCard_header">{this.props.header}</div>
+          <div className="productCard_header">
+            <a href="product">{this.props.header}</a>
+          </div>
           <div className="productCard_text">{this.props.text}</div>
           <div className="productCard_price">{this.props.price}</div>
         </div>

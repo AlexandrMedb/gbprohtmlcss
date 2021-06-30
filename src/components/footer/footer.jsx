@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer>
       <section className="footer_top ">
-        <div className="footerContainer">
+        <div className="footerWraper container">
           <div className="footer_top__left">
             <img src="img/footerGirl.png" alt="Girl" />
             <p className="footer_top__text">
@@ -33,7 +33,7 @@ export const Footer = () => {
       </section>
 
       <section className="footer_botom ">
-        <div className="container footer_botomContainer">
+        <div className="container footer_botomWraper">
           <div className="rights">© 2021 Brand All Rights Reserved.</div>
           <ul className="socialMedia">
             <li className="socialMedia_logo">

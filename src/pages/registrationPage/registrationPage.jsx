@@ -7,6 +7,7 @@ export const RegistrationPage = () => {
     <div>
       <Breadcrumb h1="REGISTRATION" />
       <div className="registration_container container">
+        <div></div>
         <form action="">
           <div className="registrationform">
             <div className="registrationForm_title">Your Name</div>
@@ -59,6 +60,13 @@ export const RegistrationPage = () => {
               placeholder="Password"
             />
           </div>
+          <p>
+            Please use 8 or more characters, with at least 1 number and a
+            mixture of uppercase and lowercase letters
+          </p>
+          <button>
+            JOIN NOW <span className="regButtonArrow">&#10230;</span>
+          </button>
         </form>
         <div className="lolatyPerks">
           <div className="lolatyPerks_title  lolatyPerks-text">

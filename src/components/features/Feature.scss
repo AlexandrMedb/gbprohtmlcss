@@ -21,3 +21,9 @@
     color: #fbfbfb;
   }
 }
+
+@media (max-width: 768px) {
+  .feature_data:not(:last-of-type) {
+    margin-bottom: 48px;
+  }
+}

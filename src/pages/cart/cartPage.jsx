@@ -9,15 +9,15 @@ export class CartPage extends React.Component {
     return (
       <div>
         <Breadcrumb h1="SHOPPING CART" />
-        <main className="cart-wrap container">
-          <section className="cart-left">
+        <main className="cart_wrap container">
+          <section className="cart_left">
             <div className="cardCart">
               <img src={cartCardImg} alt="man" />
               <div className="cardCart_data">
                 <header>
                   <h2>MANGO PEOPLE T-SHIRT</h2>
                   <button>
-                    <img className src={delImg} alt="" />
+                    <img src={delImg} alt="" />
                   </button>
                 </header>
 
@@ -40,7 +40,7 @@ export class CartPage extends React.Component {
                 <header>
                   <h2>MANGO PEOPLE T-SHIRT</h2>
                   <button>
-                    <img className src={delImg} alt="" />
+                    <img src={delImg} alt="" />
                   </button>
                 </header>
 
