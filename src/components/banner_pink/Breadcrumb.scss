@@ -22,3 +22,25 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .Breadcrumb {
+    .Breadcrumb_container {
+      padding: 60px 16px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .Breadcrumb {
+    .Breadcrumb_container {
+      padding: 24px 16px 46px 16px;
+      flex-direction: column;
+      align-items: center;
+
+      .Breadcrumb_left {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
