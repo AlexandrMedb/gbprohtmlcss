@@ -52,10 +52,13 @@
     width: 315px;
 
     .productCard_header {
-      font-size: 13px;
-      line-height: 16px;
-      color: #000000;
-      font-weight: 400;
+      a {
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        font-weight: 400;
+        text-decoration: none;
+      }
       margin-bottom: 12.7px;
     }
 
@@ -72,5 +75,11 @@
       line-height: 19px;
       color: #f16d7f;
     }
+  }
+}
+
+@media (max-width: 320px) {
+  .productCard {
+    width: 320px;
   }
 }

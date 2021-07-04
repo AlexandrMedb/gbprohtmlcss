@@ -3,27 +3,51 @@
   justify-content: space-between;
   padding-top: 64px;
   padding-bottom: 96px;
+  p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b1b1b1;
+    width: 360px;
+    margin-bottom: 39px;
+  }
+
+  button {
+    background: #f16d7f;
+    border: none;
+    padding: 17px 20px 17px 29px;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #ffffff;
+    .regButtonArrow {
+      padding-left: 20px;
+    }
+  }
 }
 
 .registrationform {
+  width: 360px;
+
   .registrationForm_title {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 20px;
-
     color: #222222;
   }
 
   .registrationForm_input {
     display: block;
-    width: 360px;
+    box-sizing: border-box;
+    width: 100%;
     border: 1px solid #a4a4a4;
     padding-top: 13px;
     padding-bottom: 16px;
     padding-left: 17px;
     margin-bottom: 20px;
   }
+
   .registrationForm_input::placeholder {
     font-weight: 300;
     font-size: 13px;
@@ -50,11 +74,44 @@
     max-width: 652px;
   }
   .lolatyPerks_title {
-    padding-bottom: 21px;
+    padding-bottom: 32px;
+  }
+  ul {
+    padding-left: 30px;
   }
   li {
     list-style-image: url(./arrow.svg);
     padding-bottom: 16px;
     padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration_container {
+    padding: 0;
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .lolatyPerks {
+    width: 360px;
+    .lolatyPerks-text {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .registration_container {
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 96px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    margin-bottom: 40px;
   }
 }

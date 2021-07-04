@@ -4,6 +4,7 @@ import { MainPage } from "./pages/mainPage/MainPage";
 import { CatalogPage } from "./pages/catalogPage/catalogPage";
 import { RegistrationPage } from "./pages/registrationPage/registrationPage";
 import { CartPage } from "./pages/cart/cartPage";
+import { ProductPage } from "./pages/product/productPage";
 
 export const useRoutes = () => {
   return (
@@ -19,6 +20,9 @@ export const useRoutes = () => {
       </Route>
       <Route path="/cart" exact>
         <CartPage />
+      </Route>
+      <Route path="/product" exact>
+        <ProductPage />
       </Route>
       <Redirect to="/" />
     </Switch>

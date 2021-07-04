@@ -20,19 +20,19 @@ import productCard from "./img/productCard.png";
 
 export const MainPage = () => {
   return (
-    <div>
-      <div className="banner_background">
+    <main>
+      <section className="banner_background">
         <div className="container banner_container">
           <div className="banner">
             <h1 className="banner_titile__bold">THE BRAND</h1>
             <p>
-              <span lassName="banner_titile">OF LUXERIOUS</span>{" "}
+              <span className="banner_titile">OF LUXERIOUS</span>{" "}
               <span className="banner_titile__pink">FASHION</span>
             </p>
           </div>
         </div>
-      </div>{" "}
-      <div className="offer container">
+      </section>
+      <section className="offer container">
         <div className="category_top">
           <CategoryLyttle title="30% OFF" header="FOR WOMEN" img={womanImg} />
           <CategoryLyttle title="HOT DEAL" header="FOR MEN" img={manImg} />
@@ -46,8 +46,8 @@ export const MainPage = () => {
           <div className="category_title"> LUXIROUS & TRENDY</div>
           <div className="category_header">ACCESORIES</div>
         </div>
-      </div>
-      <div className="container">
+      </section>
+      <section className="container">
         <div className="feturedItems ">
           <div className="feturedItems_title">Fetured Items</div>
 
@@ -96,8 +96,8 @@ export const MainPage = () => {
         <div className="products_link">
           <a href="">Browse All Product</a>
         </div>
-      </div>
+      </section>
       <Features />
-    </div>
+    </main>
   );
 };
