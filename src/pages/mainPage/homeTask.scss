@@ -2,4 +2,47 @@
   height: 100px;
   width: 100px;
   background: magenta;
+  margin: 40px;
+  font-size: 30px;
+  color: wheat;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.task_1 {
+  transition: transform 1s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.task_2 {
+  transition: transform 1s ease;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes userTransform {
+  0% {
+    transition: scale(1);
+    background: maroon;
+  }
+  20% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: scale(1.2);
+    background: mediumspringgreen;
+  }
+}
+
+.task_3 {
+  &:hover {
+    animation: userTransform 2s cubic-bezier(0, 0.89, 0, 1.01) infinite;
+  }
 }
