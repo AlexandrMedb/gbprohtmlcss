@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .navBar {
   background: #222222;
   padding: 19px 0;
@@ -65,7 +67,7 @@
     }
 
     h3 {
-      color: #f16d7f;
+      color: $main-color;
       margin-bottom: 12px;
     }
 

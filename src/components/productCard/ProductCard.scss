@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .productCard {
   width: 360px;
   height: 580px;
@@ -73,7 +75,7 @@
     .productCard_price {
       font-size: 16px;
       line-height: 19px;
-      color: #f16d7f;
+      color: $main-color;
     }
   }
 }
