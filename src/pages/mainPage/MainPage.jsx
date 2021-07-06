@@ -21,15 +21,15 @@ import productCard from "./img/productCard.png";
 export const MainPage = () => {
   return (
     <main>
-      {/* <div className="task_1 taskDiv"></div>
-      <div className="task_2 taskDiv"></div>
-      <div className="task_3 taskDiv"></div>
+      <div className="task_1 taskDiv">a, c</div>
+      <div className="task_2 taskDiv">b, c</div>
+      <div className="task_3 taskDiv">d, 3, 4</div>
       <div className="task_4 taskDiv"></div>
       <div className="task_5 taskDiv"></div>
       <div className="task_6 taskDiv"></div>
-      <div className="task_7 taskDiv"></div> */}
+      <div className="task_7 taskDiv"></div>
 
-      <section className="banner_background">
+      {/* <section className="banner_background">
         <div className="container banner_container">
           <div className="banner">
             <h1 className="banner_titile__bold">THE BRAND</h1>
@@ -104,7 +104,7 @@ export const MainPage = () => {
         <div className="products_link">
           <a href="">Browse All Product</a>
         </div>
-      </section>
+      </section> */}
       <Features />
     </main>
   );
