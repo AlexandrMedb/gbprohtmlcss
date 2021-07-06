@@ -67,7 +67,7 @@
     height: 50px;
     border-radius: 0 30px 30px 0;
     border: none;
-    background: #f16d7f;
+    background: $main-color;
     padding-left: 8px;
     box-sizing: border-box;
     font-size: 14px;
@@ -114,7 +114,7 @@
   }
 
   .socialMedia_logo:hover {
-    background-color: #f16d7f;
+    background-color: $main-color;
     color: #fff;
     path {
       fill: #ffffff;

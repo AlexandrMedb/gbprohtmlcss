@@ -14,7 +14,7 @@
       justify-content: flex-end;
       flex-direction: column;
       color: #222222;
-      border-left: 12px solid #f16d7f;
+      border-left: 12px solid $main-color;
       padding-left: 16px;
       h1 {
         font-weight: 900;
@@ -26,7 +26,7 @@
         font-size: 32px;
         line-height: 38px;
         .banner_titile__pink {
-          color: #f16d7f;
+          color: $main-color6d7f;
         }
       }
     }
@@ -78,7 +78,7 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
-    color: #f16d7f;
+    color: $main-color;
   }
 }
 

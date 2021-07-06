@@ -8,7 +8,7 @@
     .Breadcrumb_left {
       font-size: 24px;
       line-height: 29px;
-      color: #f16d7f;
+      color: $main-color;
     }
     .Breadcrumb_right {
       font-weight: 300;
@@ -17,7 +17,7 @@
       color: #636363;
 
       span {
-        color: #f16d7f;
+        color: $main-color;
       }
     }
   }
