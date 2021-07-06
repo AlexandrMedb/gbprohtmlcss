@@ -1,3 +1,7 @@
+@import "../../styles/variables.scss";
+
+@import "./homeTask.scss";
+
 .banner_background {
   background: #f1e4e6;
   margin-bottom: 65px;
@@ -26,7 +30,7 @@
         font-size: 32px;
         line-height: 38px;
         .banner_titile__pink {
-          color: $main-color6d7f;
+          color: $main-color;
         }
       }
     }
