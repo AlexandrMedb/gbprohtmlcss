@@ -94,7 +94,7 @@ export const MainPage = () => {
           />
         </div>
         <div className="products_link">
-          <a href="">Browse All Product</a>
+          <a href="/">Browse All Product</a>
         </div>
       </section>
       <Features />

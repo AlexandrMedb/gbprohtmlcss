@@ -9,6 +9,10 @@
     margin-bottom: 25px;
     position: relative;
 
+    img {
+      width: 100%;
+    }
+
     .productCard_link {
       position: absolute;
       top: 0;
@@ -49,7 +53,8 @@
   .product_data {
     text-align: start;
     padding-left: 16px;
-    width: 315px;
+    max-width: 315px;
+    box-sizing: border-box;
 
     .productCard_header {
       a {

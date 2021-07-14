@@ -18,7 +18,8 @@
 
 @media (max-width: 425px) {
   .category_little {
-    width: 343px;
+    max-width: 343px;
+    width: 100%;
     padding: 105px 0 72px 0;
     margin-bottom: 32px;
   }

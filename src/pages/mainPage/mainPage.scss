@@ -120,6 +120,13 @@
   margin-bottom: 109px;
 }
 
+@media (max-width: 1024px) {
+  .products {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .banner_background {
     margin-bottom: 20px;
@@ -149,6 +156,10 @@
     .category_big {
       padding: 33px 0px;
     }
+  }
+  .products {
+    justify-content: space-between;
+    gap: 0;
   }
 
   .products_link {
