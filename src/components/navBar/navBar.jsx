@@ -6,7 +6,7 @@ import delImg from "./delImg.svg";
 
 export const Navbar = () => {
   return (
-    <section className="navBar">
+    <nav className="navBar">
       <div className="container navBar_container">
         <div className="navBar_left">
           <div className="navButton">
@@ -106,6 +106,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </nav>
   );
 };
