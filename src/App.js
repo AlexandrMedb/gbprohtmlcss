@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div>{useRoutes()}</div>
+      {useRoutes()}
       <Footer />
     </Router>
   );
